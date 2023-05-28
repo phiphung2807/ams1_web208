@@ -8,14 +8,9 @@
     },
     {
       "id": "2",
-      "name": "Product A",
+      "name": "Product A update",
       "price": 200,
       "img": "https://picsum.photos/200/200"
-    },
-    {
-      "id": "fsFzixj",
-      "name": "phung viet phi",
-      "price": 9999
     }
   ]
 }
