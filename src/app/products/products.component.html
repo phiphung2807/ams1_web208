@@ -8,7 +8,7 @@
               <th>Ảnh</th>
               <th>Tên sản phẩm</th>
               <th>Giá</th>
-              <th><a routerLink="">Thêm</a></th>
+              <th><a routerLink="/product/add">Thêm</a></th>
             </tr>
           </thead>
       
@@ -22,10 +22,11 @@
                 <button class="btn btn-danger" (click)="removeItem(product.id)">
                   Xóa
                 </button>
-                <a routerLink="">Cập nhật</a>
+                <a routerLink="/product/{{ product.id }}/edit">Cập nhật</a>
               </td>
             </tr>
           </tbody>
     </table>
 </div>
+
 
